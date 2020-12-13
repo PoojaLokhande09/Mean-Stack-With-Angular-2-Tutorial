@@ -96,6 +96,7 @@ export class RegisterComponent implements OnInit {
   // Function to submit form
   onRegisterSubmit() {
     console.log('form submitted');
+    this.form.get('email').value;
   }
 
   ngOnInit() {
